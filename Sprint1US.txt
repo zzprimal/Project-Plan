@@ -1,0 +1,77 @@
+--------------------------
+US 1.01.1 - Senior Onboarding (Signup/Login) (SP1)
+As a senior, I want to create an account using my email and password, so that I can access the app.
+
+US 1.02.1 - Senior Profile Details (SP1)
+As a senior, I want to add my profile details and my emergency contact during signup so that companions can know who I am.
+
+US 1.02.2 - Senior Photo Upload (SP1)
+As a senior, I want to upload a profile photo, so that my companions can easily recognize me.
+
+US 1.02.3 - Senior Update Profile (SP1)
+As a senior, I want to update my profile information so that my account always reflects my current details and needs.
+---------------------------
+US 1.03.2 - Senior View List Companions/Volunteers (SP1)
+As a senior, I want to view a list of available companions or volunteers with their basic details, so that I can quickly see who all are available for a virtual/in person meeting.
+
+US 1.03.1 - Main Dashboard for Seniors (SP1)
+As a senior, I want to open the browse page, so that I can choose to see companions or volunteers.
+
+US 1.03.3 - Senior Profile Clicking (SP1)
+As a senior, I want to click on a profile, so that I can see more details about the companion/volunteer.
+
+US 06.03.02 - Viewing Companion and Volunteer Ratings (SHOULD) (SP1, MAYBE SWITCH)
+As a senior I want to be able to view a companion's or a volunteer's rating so that i can take that into account when deciding whether or not to book a session with said companion or volunteer
+---------------------------
+US 2.02.1 - Search Users by Username/Email (SP1)
+As an Admin, I want to search users by username, partial name, or email, so that I can quickly find the user’s profile.
+
+US 2.03.1 - Registration Review Queue (SP1)
+As an Admin, I want to see a queue of pending registrations by role (senior, companion, volunteer), so that I can process approvals efficiently.
+
+US 2.03.2 - Approve / Reject / Request Info (SP1)
+As an Admin, I want to approve, reject with reason, or request more info, so that only vetted users are onboarded.
+
+US 2.01.2 - Session Management & Timeout (SP1)
+As an Admin, I want managed sessions with idle timeout and manual sign-out, so that the account remains protected.
+
+US 2.07.1 - Session Search (SP1)
+As an Admin, I want to find sessions by participant, date, and status, so that I can investigate issues.
+---------------------------
+US 3.01.1 – Volunteer Profile Creation (Story Points: 3) (SP1)
+As a Volunteer, I want to create my profile with details (name, photo, age, contact info, bio), so that coordinators and families can know about me.
+
+US 3.01.2 – Languages  (Story Points: 3) (SP1)
+As a Volunteer, I want to list the languages I speak, so that I can be matched with seniors who share them.
+
+US 3.02.1 – Manage Availability (Story Points: 3) (SP1)
+As a Volunteer, I want to set my availability, so that I only receive session offers that fit my schedule.
+
+US 4.1 — Availability Management (SP1)
+As a paid companion, I want to set and edit my availability calendar, so that seniors and businesses can book me only when I’m free.
+
+US 4.1.2 — Availability Templates (SP1)
+As a paid companion, I want to save recurring availability presets (e.g., weekdays 9–1, weekends off), so that I can update my schedule quickly.
+---------------------------
+US 06.01.01 -  Senior Session Booking (MUST) (SP1)
+As a senior I want to be able to request a scheduling of a session with a volunteer or a companion with time selecting via a calendar interface so that i can meet with a volunteer or companion and have a convenient interface to schedule the time
+
+US 06.01.02 - Companion and Volunteer Session Acceptance (MUST) (SP1)
+As a volunteer or a companion i want to be able accept a session request from a senior so that i can meet the senior
+
+US 06.01.03 - Reschedule Request (MUST) (SP1)
+As a senior, volunteer, or companion I want to be able to send a reschedule request for an alternative time for a session via a calendar interface so that i can still meet with the senior, volunteer, or companion at a different time in the case i'm not available for the scheduled time
+
+US 06.01.04 - Reschedule Accept (MUST) (SP1)
+As a senior, volunteer, or companion I want to be able to accept a reschedule request for an alternative time for a session so that we can agree on a new time to meet
+
+US 06.03.01 - Companion and Volunteer Reviews (SHOULD) (SP1)
+As a senior i want to leave a review on a companion or volunteer after a session so that I can alert other seniors about the quality of service said companion or volunteer provides
+
+(Note the below 2 are pretty much equivalent to 06.01.02 except in slightly more detail)
+
+US 4.2 — Appointment Handling (SP1)
+As a paid companion, I want to receive, accept, or decline session requests, so that I can manage my workload and commit to reliable schedules.
+
+US 4.2.1 — Smart Match Intake (SP1)
+As a paid companion, I want incoming requests to include key details (interests, language, special needs), so that I can quickly judge fit before accepting.

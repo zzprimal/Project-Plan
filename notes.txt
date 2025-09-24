@@ -1,0 +1,393 @@
+12 + 21 + 18 + 15 + 6 + 18 + 7
+97 US, this can vary but itll probably either be around at max and min 10 more or 10 less than this so >= 87 and <= 107
+
+assuming worse case with 107 we need to complete...
+
+107 / 4 = 21.4
+and so 22 user stories per sprint, muneb said 5 US each per sprint so 25 per sprint it should probably be
+
+
+IGNORE FAMILY AND BUISNESS AND MAYBE COMPANIONS
+
+## First pass US 1.0
+
+US 1.01.1 - Senior Onboarding (Signup/Login) (SP1)
+As a senior, I want to create an account using my email and password, so that I can access the app.
+
+US 1.02.1 - Senior Profile Details (SP1)
+As a senior, I want to add my profile details and my emergency contact during signup so that companions can know who I am.
+
+US 1.02.2 (SP1)
+As a senior, I want to upload a profile photo, so that my companions can easily recognize me.
+
+US 1.02.3 (SP1)
+As a senior, I want to update my profile information so that my account always reflects my current details and needs.
+
+US 1.03.1 - Main Dashboard for seniors (SP1)
+As a senior, I want to open the browse page, so that I can choose to see companions or volunteers.
+
+US 1.03.2 (SP1)
+As a senior, I want to view a list of available companions or volunteers with their basic details, so that I can quickly see who all are available for a virtual/in person meeting.
+
+US 1.03.3 (SP1)
+As a senior, I want to click on a profile, so that I can see more details about the companion/volunteer.
+
+Total 7
+
+## First pass US 2.0
+
+US 2.01.2 - Session Management & Timeout (SP1)
+As an Admin, I want managed sessions with idle timeout and manual sign-out, so that the account remains protected.
+
+US 2.02.1 - Search Users by Username/Email (SP1)
+As an Admin, I want to search users by username, partial name, or email, so that I can quickly find the user’s profile.
+
+US 2.03.1 - Registration Review Queue (SP1)
+As an Admin, I want to see a queue of pending registrations by role (senior, companion, volunteer), so that I can process approvals efficiently.
+
+US 2.03.2 - Approve / Reject / Request Info (SP1)
+As an Admin, I want to approve, reject with reason, or request more info, so that only vetted users are onboarded.
+
+US 2.05.3 - Cancel/Reassign with Notifications (SP1)
+As an Admin, I should be able to cancel or reassign a session with mandatory reason, so that people involved are informed.
+
+US 2.07.1 - Session Search (SP1)
+As an Admin, I want to find sessions by participant, date, and status, so that I can investigate issues.
+
+Total 6
+
+## First pass US 3.0
+
+US 3.01.1 – Volunteer Profile Creation (Story Points: 3) (SP1)
+ As a Volunteer, I want to create my profile with details (name, photo, age, contact info, bio), so that coordinators and families can know about me.
+
+US 3.01.2 – Languages  (Story Points: 3) (SP1)
+ As a Volunteer, I want to list the languages I speak, so that I can be matched with seniors who share them.
+
+US 3.01.9 – Volunteer Status Badge (Story Points: 3) (SP1)
+ As a Volunteer, I want a status badge, so that my standing is recognized.
+
+US 3.02.1 – Manage Availability (Story Points: 3) (SP1)
+ As a Volunteer, I want to set my availability, so that I only receive session offers that fit my schedule.
+
+US 3.02.2 – Manage Volunteer Sessions (Story Points: 5) (SP1)
+ As a Volunteer, I want to accept, reschedule, or cancel sessions, so that I can manage my commitments.
+
+US 3.02.5 – Log Service Hours (Story Points: 3) (SP1)
+ As a Volunteer, I want to log my service hours, so that my contributions are recorded.
+
+US 3.02.6 – Recognition Badges (Story Points: 3) (SP1)
+ As a Volunteer, I want recognition badges, so that my contributions are acknowledged.
+
+US 3.02.7 – Rate and Review Sessions (Story Points: 2) (SP1)
+ As a Volunteer, I want to rate and review sessions, so that quality feedback is provided.
+
+Total 8
+
+## First pass US 4.0 (Prioritize US 3.0 first since OOP can allow alot of these user stories to be automatically implemented)
+
+US 4.1 — Availability Management (SP1)
+As a paid companion, I want to set and edit my availability calendar, so that seniors and businesses can book me only when I’m free.
+
+US 4.2 — Appointment Handling (SP1)
+As a paid companion, I want to receive, accept, or decline session requests, so that I can manage my workload and commit to reliable schedules.
+
+US 4.1.2 — Availability Templates (SP1)
+As a paid companion, I want to save recurring availability presets (e.g., weekdays 9–1, weekends off), so that I can update my schedule quickly.
+
+US 4.2.1 — Smart Match Intake (SP1)
+As a paid companion, I want incoming requests to include key details (interests, language, special needs), so that I can quickly judge fit before accepting.
+
+Total 4
+
+## First pass US 6.0
+
+US 06.01.01 -  Senior Session Booking (MUST) (SP1)
+As a senior I want to be able to request a scheduling of a session with a volunteer or a companion with time selecting via a calendar interface so that i can meet with a volunteer or companion and have a convenient interface to schedule the time
+
+US 06.01.02 - Companion and Volunteer Session Acceptance (MUST) (SP1)
+As a volunteer or a companion i want to be able accept a session request from a senior so that i can meet the senior
+
+US 06.01.03 - Reschedule Request (MUST) (SP1)
+As a senior, volunteer, or companion I want to be able to send a reschedule request for an alternative time for a session via a calendar interface so that i can still meet with the senior, volunteer, or companion at a different time in the case i'm not available for the scheduled time
+
+US 06.01.04 - Reschedule Accept (MUST) (SP1)
+As a senior, volunteer, or companion I want to be able to accept a reschedule request for an alternative time for a session so that we can agree on a new time to meet
+
+US 06.03.01 - Companion and Volunteer Reviews (SHOULD) (SP1)
+As a senior i want to leave a review on a companion or volunteer after a session so that I can alert other seniors about the quality of service said companion or volunteer provides
+
+US 06.03.02 - Viewing Companion and Volunteer Ratings (SHOULD) (SP1)
+As a senior I want to be able to view a companion's or a volunteer's rating so that i can take that into account when deciding whether or not to book a session with said companion or volunteer
+
+total 6
+
+## First pass US 5.0 (NONE NOT DOING FAMILY)
+
+## First pass US 7.0 (NONE NOT DOING FAMILY)
+
+Subtotal 31
+
+SPRINT 2
+Break down to around 20 (since i need SETUP US aswell so around 20 is good)
+--------------------------
+US 1.01.1 - Senior Onboarding (Signup/Login) (SP1)
+As a senior, I want to create an account using my email and password, so that I can access the app.
+
+US 1.02.1 - Senior Profile Details (SP1)
+As a senior, I want to add my profile details and my emergency contact during signup so that companions can know who I am.
+
+US 1.02.2 (SP1)
+As a senior, I want to upload a profile photo, so that my companions can easily recognize me.
+
+US 1.02.3 (SP1)
+As a senior, I want to update my profile information so that my account always reflects my current details and needs.
+---------------------------
+US 1.03.2 (SP1)
+As a senior, I want to view a list of available companions or volunteers with their basic details, so that I can quickly see who all are available for a virtual/in person meeting.
+
+US 1.03.1 - Main Dashboard for seniors (SP1)
+As a senior, I want to open the browse page, so that I can choose to see companions or volunteers.
+
+US 1.03.3 (SP1)
+As a senior, I want to click on a profile, so that I can see more details about the companion/volunteer.
+
+US 06.03.02 - Viewing Companion and Volunteer Ratings (SHOULD) (SP1)
+As a senior I want to be able to view a companion's or a volunteer's rating so that i can take that into account when deciding whether or not to book a session with said companion or volunteer
+---------------------------
+US 2.02.1 - Search Users by Username/Email (SP1)
+As an Admin, I want to search users by username, partial name, or email, so that I can quickly find the user’s profile.
+
+US 2.03.1 - Registration Review Queue (SP1)
+As an Admin, I want to see a queue of pending registrations by role (senior, companion, volunteer), so that I can process approvals efficiently.
+
+US 2.03.2 - Approve / Reject / Request Info (SP1)
+As an Admin, I want to approve, reject with reason, or request more info, so that only vetted users are onboarded.
+
+US 2.01.2 - Session Management & Timeout (SP1)
+As an Admin, I want managed sessions with idle timeout and manual sign-out, so that the account remains protected.
+
+US 2.07.1 - Session Search (SP1)
+As an Admin, I want to find sessions by participant, date, and status, so that I can investigate issues.
+---------------------------
+US 3.01.1 – Volunteer Profile Creation (Story Points: 3) (SP1)
+ As a Volunteer, I want to create my profile with details (name, photo, age, contact info, bio), so that coordinators and families can know about me.
+
+US 3.01.2 – Languages  (Story Points: 3) (SP1)
+ As a Volunteer, I want to list the languages I speak, so that I can be matched with seniors who share them.
+
+US 3.02.1 – Manage Availability (Story Points: 3) (SP1)
+ As a Volunteer, I want to set my availability, so that I only receive session offers that fit my schedule.
+
+US 4.1 — Availability Management (SP1)
+As a paid companion, I want to set and edit my availability calendar, so that seniors and businesses can book me only when I’m free.
+
+US 4.1.2 — Availability Templates (SP1)
+As a paid companion, I want to save recurring availability presets (e.g., weekdays 9–1, weekends off), so that I can update my schedule quickly.
+---------------------------
+US 06.01.01 -  Senior Session Booking (MUST) (SP1)
+As a senior I want to be able to request a scheduling of a session with a volunteer or a companion with time selecting via a calendar interface so that i can meet with a volunteer or companion and have a convenient interface to schedule the time
+
+US 06.01.02 - Companion and Volunteer Session Acceptance (MUST) (SP1)
+As a volunteer or a companion i want to be able accept a session request from a senior so that i can meet the senior
+
+US 06.01.03 - Reschedule Request (MUST) (SP1)
+As a senior, volunteer, or companion I want to be able to send a reschedule request for an alternative time for a session via a calendar interface so that i can still meet with the senior, volunteer, or companion at a different time in the case i'm not available for the scheduled time
+
+US 06.01.04 - Reschedule Accept (MUST) (SP1)
+As a senior, volunteer, or companion I want to be able to accept a reschedule request for an alternative time for a session so that we can agree on a new time to meet
+
+US 06.03.01 - Companion and Volunteer Reviews (SHOULD) (SP1)
+As a senior i want to leave a review on a companion or volunteer after a session so that I can alert other seniors about the quality of service said companion or volunteer provides
+
+(Note the below 3 are equivalent to the above)
+
+US 4.2 — Appointment Handling (SP1)
+As a paid companion, I want to receive, accept, or decline session requests, so that I can manage my workload and commit to reliable schedules.
+
+US 4.2.1 — Smart Match Intake (SP1)
+As a paid companion, I want incoming requests to include key details (interests, language, special needs), so that I can quickly judge fit before accepting.
+
+US 3.02.2 – Manage Volunteer Sessions (Story Points: 5) (SP2)
+ As a Volunteer, I want to accept, reschedule, or cancel sessions, so that I can manage my commitments.
+
+ARCHIVE
+
+US 2.05.3 - Cancel/Reassign with Notifications
+As an Admin, I should be able to cancel or reassign a session with mandatory reason, so that people involved are informed.
+
+US 3.01.9 – Volunteer Status Badge (Story Points: 3) (SP1)
+ As a Volunteer, I want a status badge, so that my standing is recognized.
+
+US 3.02.5 – Log Service Hours (Story Points: 3) (SP1)
+ As a Volunteer, I want to log my service hours, so that my contributions are recorded.
+
+US 3.02.6 – Recognition Badges (Story Points: 3) (SP1)
+ As a Volunteer, I want recognition badges, so that my contributions are acknowledged.
+
+US 3.02.7 – Rate and Review Sessions (Story Points: 2) (SP1)
+ As a Volunteer, I want to rate and review sessions, so that quality feedback is provided.
+
+
+SPRINT 3 (use archive from sprint 1)
+
+US 2.05.1 - Schedule Explorer  (SP3)
+As an Admin, I want to view calendars by role, user, date range, and status, so that I can oversee operations.
+
+US 2.06.3 - Acknowledge/Resolve Workflow (SP3???)
+As an Admin, I want to acknowledge, add notes, escalate, and resolve alerts, so that incident handling is consistent.
+
+US 2.05.3 - Cancel/Reassign with Notifications (SP3)
+As an Admin, I should be able to cancel or reassign a session with mandatory reason, so that people involved are informed.
+Acceptance Tests
+
+US 2.05.2 - Conflict Detection (SP3)
+As an Admin, I want to detect double-bookings and surface conflicts, so that I can resolve issues quickly.
+
+US 2.07.2 - Session Metrics
+As an Admin, I want to see start/end, duration, and quality metrics, so that I can determine root causes.
+
+
+US 1.01.2 - Senior Email Verification (SP3)
+As a senior, I want to verify my email during sign-up, so that my account is secure and valid.
+
+US 1.01.3 - Senior Reset Password (SP3)
+As a senior, I want to reset my password, so that I can regain access if I forget it.
+
+US 1.04.1 - Matching and Accessibility preferences for Seniors (SP3)
+As a senior, I want to set my preferences so that I can get matches that best fit my needs and comfort.
+
+US 1.04.2 Senior Volunteer Companion Recommendations (SP3)
+As a senior, I want to see a recommended matches tab, so that I can quickly find companions or volunteers who match my preferences and interests.
+
+US 1.04.3 - Senior Accessibility Preferences (SP3)
+As a senior, I want to set accessibility preferences  so that I can use the app comfortably according to my needs.
+
+
+
+US 3.02.7 – Rate and Review Sessions (Story Points: 2) (SP3)
+ As a Volunteer, I want to rate and review sessions, so that quality feedback is provided.
+
+US 3.01.3 – Skills and Interests (Story Points: 5) (SP3)
+ As a Volunteer, I want to add my skills and interests, so that I can be matched with suitable activities.
+
+US 3.01.4 – Prior Experience  (Story Points: 3) (SP3)
+ As a Volunteer, I want to record my prior volunteer/care experience, so that families know my background.
+
+US 3.01.5 – Certifications and Training (Story Points: 8) (SP3)
+ As a Volunteer, I want to upload my certifications/training, so that my qualifications are verified.
+
+US 3.02.4 – Secure Communication (Story Points: 5) (SP3)
+ As a Volunteer, I want secure communication with seniors/families, so that we can coordinate safely.
+
+
+US 06.05.01 - Payment of Companions (MUST) (SP3)
+As a senior i want to pay a companion so that i can book a session with them
+
+US 06.05.02 - Receivement of Invoice (SHOULD) (SP3)
+As a senior i want to receive a invoice for a session so that i know the details of the charges
+
+US 06.05.03 - Receivement of Receipt (SHOULD) (SP3)
+As a senior i want to receive a receipt for a session so that i have proof of payment
+
+US 4.6 — Payments & Compliance (SP3)
+As a paid companion, I want a streamlined payment flow and verified credentials/background checks, so that I’m paid reliably 
+and remain compliant with platform standards.
+
+US 4.6.1 — Payout Preferences & Statements (SP3)
+As a paid companion, I want to choose payout methods and view downloadable statements, so that I can reconcile my earnings
+easily.
+
+US 4.6.2 — Tax/Invoice Export (SP3)
+As a paid companion, I want tax forms and invoices exportable (CSV/PDF), so that I can meet reporting obligations.
+
+
+US 06.02.01 - Senior, Volunteer, and Companion Virtual Sessions (SHOULD)
+As a senior I want to be able to make a video call with a volunteer or a companion so that i can do a virtual session with a volunteer or a companion
+
+US 5.01.4 – Monitor Virtual Sessions
+As a Family Member, I want to monitor or join my senior’s virtual session (with consent), so that I can check on their safety.
+
+US 3.02.3 – Virtual Session Participation (Story Points: 5)
+ As a Volunteer, I want to join virtual sessions with tracking, so that my service hours are logged.
+
+ US 4.3 — Virtual Session Tracking (No location data)
+As a paid companion, I want virtual sessions (video/audio/chat) to auto-log start/end and duration, so that remote support is tracked for reporting and payments.
+
+
+US 5.01.1 – View & Approve Matches (SP3)
+As a Family Member, I want to monitor and approve companion/volunteer matches for my senior, so that I can ensure they are safe and appropriate.
+
+US 5.01.5 – Rate & Review Companions (SP3)
+As a Family Member, I want to rate and review companions, so that I can provide feedback on their performance.
+
+US 6.06.01 SOS Button (SP3)
+As a senior i want a SOS button so that i can notify my emergency contacts in the case of an emergency
+
+US 5.01.6 – Receive Safety Alerts (SP3)
+As a Family Member, I want to receive alerts when appointments are missed or safety triggers are activated, so that I can respond quickly.
+
+US 07.01.05 - Out-of-Schedule Activities
+As a senior, I want the application to alert an admin or family member when out-of-schedule activities occur, so that timely assistance can be provided.
+
+
+
+US 5.01.2 – Real-Time Geo Alerts (SP3)
+As a Family Member, I want to receive real-time geo location alerts for my senior, so that I know if they leave a safe zone.
+
+US 07.01.07 - Geo-Fence Violations (SP3)
+As a senior, I want the application to alert an admin or family member when geo-fence violations occur, so that safety risks are addressed. 
+
+US 07.01.03 - Admin Geo-Tracking
+As an admin, I want to be able to track the location of seniors' visits with companions so that I can ensure their safety
+
+US 07.01.02 - Family Member Geo-Tracking
+As a family member, I want to track the location of my senior relative, with their consent, to ensure their safety. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SP3 ARCHIVE:
+US 3.01.9 – Volunteer Status Badge (Story Points: 3)
+ As a Volunteer, I want a status badge, so that my standing is recognized.
+
+US 3.02.5 – Log Service Hours (Story Points: 3)
+ As a Volunteer, I want to log my service hours, so that my contributions are recorded.
+
+US 3.02.6 – Recognition Badges (Story Points: 3)
+ As a Volunteer, I want recognition badges, so that my contributions are acknowledged.
+
+
+Geolocation should start on sprint 4 and finish on sprint 5
+
+
+
+
+
+
+
