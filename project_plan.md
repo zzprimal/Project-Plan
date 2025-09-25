@@ -67,6 +67,7 @@ Mostly just codebase setup, senior profile setup, setting up initial session sch
 
 ### Tasks
 | Task | Related US | Assigned To | Due Data|
+| -- | -- | -- | -- |
 | Configure development environment (IDE, Git, dependencies) | SETUP | Everyone | Oct 5 |
 | Setup database schema for senior profiles | US 1.02.1 | Munib | Oct 5 |
 | Implement API endpoint | US 1.01.1 | Munib | Oct 5 |
