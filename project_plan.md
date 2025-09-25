@@ -9,6 +9,8 @@
 | Teamwork Document | 3 |
 | Github Setup | 1 |
 
+Estimated sprint velocity: 23
+
 ### Tasks
 | Task | Related US | Assigned To | Due Data|
 | -- | -- | -- | -- |
@@ -64,6 +66,7 @@ Mostly just codebase setup, senior profile setup, setting up initial session sch
 | US 07.01.06 - Geo-Fenced Safe Zone |
 | US 07.01.04 - Location Proximity Threshold Filter |
 
+Estimated sprint velocity:
 
 ### Tasks
 | Task | Related US | Assigned To | Due Data|
@@ -147,3 +150,5 @@ Finishing the session stuff, more admin tasks, finish senior user stories (US 1.
 | US 07.01.07 - Geo-Fence Violations |
 | US 07.01.03 - Admin Geo-Tracking |
 | US 07.01.02 - Family Member Geo-Tracking |
+
+Estimated sprint velocity:
