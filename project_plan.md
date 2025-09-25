@@ -66,6 +66,45 @@ Mostly just codebase setup, senior profile setup, setting up initial session sch
 
 
 ### Tasks
+| Task | Related US | Assigned To | Due Data|
+| Configure development environment (IDE, Git, dependencies) | SETUP | Everyone | Oct 5 |
+| Setup database schema for senior profiles | US 1.02.1 | Munib | Oct 5 |
+| Implement API endpoint | US 1.01.1 | Munib | Oct 5 |
+| Create UI for senior onboarding | US 1.01.1 | Dina | Oct 6 |
+| Build UI for entering profile details | US 1.02.1 | Dina | Oct 6 |
+| Add backend validation for profile details | US 1.02.1 | Divit | Oct 6 |
+| Implement photo upload component | US 1.02.2 | Divit | Oct 7 |
+| Store uploaded photo in database / storage | US 1.02.2 | Divit | Oct 7 |
+| Add “edit profile” UI | US 1.02.3 | Daniel | Oct 7 |
+| Create dashboard UI for seniors | US 1.03.1 | Daniel | Oct 7 |
+| Fetch and display senior companion/volunteer list | US 1.03.2 | Daniel | Oct 7 |
+| Enable clicking senior profiles to view details | US 1.03.3 | Rish | Oct 8 |
+| Add rating display for companions/volunteers | US 06.03.02 | Rish | Oct 8 |
+| Implement search users by username/email | US 2.02.1 | Zaid | Oct 8 |
+| Build registration review queue dashboard | US 2.03.1 | Devon | Oct 8 |
+| Approve/reject/request info workflow backend | US 2.03.2 | Devon | Oct 9 |
+| Session timeout & auto-logout handling | US 2.01.2 | Munib | Oct 9 |
+| Implement session search feature | US 2.07.1 | Rish | Oct 9 |
+| Volunteer profile creation form | US 3.01.1 | Zaid | Oct 9 |
+| Add “languages spoken” input field | US 3.01.2 | Zaid | Oct 9 |
+| Manage volunteer availability calendar | US 3.02.1 | Rish | Oct 10 |
+| Availability templates feature | US 4.1.2 | Rish | Oct 10 |
+| Senior session booking flow | US 06.01.01 | Dina | Oct 10 |
+| Companion/volunteer session acceptance | US 06.01.02 | Daniel | Oct 10 |
+| Reschedule request | US 06.01.03 | Devon | Oct 10 |
+| Reschedule accept | US 06.01.04 | Devon | Oct 10 |
+| Companion/volunteer review submission | US 06.03.01 | Dina | Oct 10 |
+| Manage volunteer sessions dashboard | US 3.02.2 | Daniel | Oct 10 |
+| Appointment handling backend | US 4.2 | Munib | Oct 10 |
+| Smart match algorithm | US 4.2.1 | Divit | Oct 11 |
+| Family profile creation form | US 5.02.1 | Zaid | Oct 11 |
+| Family senior search | US 5.02.2 | Zaid | Oct 11 |
+| Senior profile searching feature | US 1.05.1 | Zaid | Oct 11 |
+| Family caregiver | US 5.02.3 | Daniel | Oct 11 |
+| View logs & session history | US 5.01.3 | Munib | Oct 11 |
+| Geo-tracking toggle (on/off) | US 07.01.01 | Divit | Oct 11 |
+| Safe zone creation | US 07.01.06 | Devon | Oct 12 |
+| Proximity threshold filter | US 07.01.04 | Daniel | Oct 12 |
 
 ## Sprint 3
 Finishing the session stuff, more admin tasks, finish senior user stories (US 1.0), get started on implementing payment mechanisms, finish off volunteer user stories, start implementing video calls in the app, family related tasks in regards to their seniors safety, and finally some geolocation tasks for tracking and safety
