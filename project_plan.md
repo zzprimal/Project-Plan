@@ -40,9 +40,6 @@ Note US 2.02.2 and US 2.02.3 will have to wait to be done since requires locatio
 | US 3.01.4 – Prior Experience | 3 |
 | US 3.01.5 – Certifications and Training | 8 |
 
-19 total + half of US 3 = 25
-25 / 7 = about 4 each
-
 unironically all of these are in chronological order of US but it works out pretty nicely with most of the work in each group correlating in some way making doing the US for your group easier as opposed to giving some of those US to a different group
 
 GROUP 1: US 1.01.1, US 1.01.2, US 1.01.3 => SP 15, Munib
