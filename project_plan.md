@@ -51,6 +51,7 @@ GROUP 3: US 1.03.1, US 1.03.2, US 1.03.3 => SP 12, Daniel (note this individual 
 GROUP 4: US 1.04.1, US 1.04.2, US 1.04.3 => SP 13, Zaid (have to wait for group 3 to create dashboard UI)
 
 GROUP 5: US 2.01.1, US 2.01.2 => SP 11, Divit (this one has initial admin interface setup)
+
 GROUP 6: US 2.02.1, US 2.03.1, US 2.03.2 => SP 11, Devon
 
 GROUP 7: US 3.01.1, US 3.01.2, US 3.01.3 => SP 11, Dina
