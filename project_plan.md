@@ -16,7 +16,6 @@
 
 ## Sprint 2
 
-Note US 2.02.2 and US 2.02.3 will have to wait to be done since requires location tracking which isn't done in this sprint, 
 ### User Stories
 | User Stories | Story Points |
 | ------------ | ------------ |
@@ -35,21 +34,6 @@ Note US 2.02.2 and US 2.02.3 will have to wait to be done since requires locatio
 | US 1.04.3 - Senior Accessibility Preferences | 4 |
 | US 3.01.1 – Volunteer Profile Creation | 3 |
 | US 3.01.2 – Languages | 3 |
-
-### New Groups
-GROUP 1: US 1.01.1, US 1.01.2, Munib
-
-GROUP 2: US 1.01.3, US 1.02.1, Divit
-
-GROUP 3: US 1.02.2, US 1.02.3, Devon
-
-GROUP 4: US 1.03.3, US 1.03.2, Daniel
-
-GROUP 5: US 1.03.1, US 1.04.1, Zaid
-
-GROUP 6: US 1.04.2, US 1.04.3, Rishh
-
-GROUP 7: US 3.01.1, US 3.01.2, Dina
 
 ### Tasks
 | Task | Related US | Assigned To | Due Data|
